@@ -81,8 +81,8 @@ POWER BI
   - RESULT INTERPRETATION; From the visualization above, the top selling product is Shoes with the total sales of 3.09 million which accounts for (29.16% of the total revenue). Followed by shirt which has the total sales of 2.45 million (23.14% of the total revenue)
 - TOP SELLING SERVICE IN CUSTOMERDATA
    ![power BI visualization 5](https://github.com/user-attachments/assets/6eb89297-e695-4948-81ca-24e3eaccef90)
-  -  RESULT INTERPRETATION; From the visualization above, the top selling product is Basic subscriptiontype with the total sales of 75 million which accounts for (49.9% of the total revenue). Followed by premium subscriptiontype which has the total sales of 38 million (25.08% of the total revenue)
- 
+  -  RESULT INTERPRETATION; From the visualization above, the top selling product is Basic subscriptiontype with the total sales of 75 million which accounts for (49.9% of the total revenue). Followed by premium subscriptiontype which has the total sales of 38 million (25.08% of the total revenue).
+   
 - REGIONAL PERFORMANCE
     ![power BI visualization 3](https://github.com/user-attachments/assets/6ed6f1d4-b20e-4c41-8bea-6f25f601ef68)
     - RESULT INTERPRETATION; From the visualization above, South region has the highest sales(4.7millon) in the four regions followed by East region (2.5million) of the total revenue.
@@ -95,5 +95,8 @@ POWER BI
  RESULT INTERPRETATION; From the visualization above,the month of February had the highest sales recorded (2.75 million) followed by July (1.38 million)
 
  ### Recommendation
-The product "shoe" dominance indicates strong product recognition and customer preference 
+- The product "shoe" dominance indicates strong product recognition and customer preference 
  Therefore, it is recommended that the retail store keep investing in shoe's marketing and distribution.
+-  Regional performance shows that there are emerging opportunities in east since it is the region that geverated second highest revenue
+ Therefore, it is recommended that marketing strategies should be developed to tap into East's growth potential.
+
