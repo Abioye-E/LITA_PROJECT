@@ -93,3 +93,5 @@ POWER BI
 ![power BI visualization 6](https://github.com/user-attachments/assets/6045a964-62f7-45f1-a2d6-7fd7eb7dbdcd)
 
  RESULT INTERPRETATION; From the visualization above,the month of February had the highest sales recorded (2.75 million) followed by July (1.38 million)
+
+ ### Recommendation
