@@ -70,5 +70,8 @@ HAVING SUM(CASE
 WHEN OrderDate BETWEEN '2024-06-01' AND '2024-08-31' 
 THEN 1 ELSE 0 END) = 0
 ```
-
+### Data Visualization
+POWER BI
+- I imported data from SQL sever
+- After impoerting, I transformed the data and checked for column quality, 
 
