@@ -25,11 +25,50 @@ The goal of the analysis is to :
   ![pivot reporting 2](https://github.com/user-attachments/assets/b28346b0-91f4-40f5-8c6e-6591622d4334)
  SQL; I created a database LITA_PROJECT ```create database LITA_PROJECT```
 Then the dataset was imported from Excel after which several structured queries were written to retrieve the right columns needed to find;
-- Total sales for each product category, Number of Sales transactions in each region, Highest selling product by total sales value.
-  ```SELECT Top (1) Product, SUM([ Sales]) AS TotalSales
+- Total sales for each product category, Number of Sales transactions in each region, Highest selling product by total sales value. 
+  ```SQL
+  SELECT Top (1) Product, SUM([ Sales]) AS TotalSales FROM SalesData GROUP BY Product ORDER BY TotalSales DESC
+```
+```SQL
+SELECT Region, COUNT(OrderID) AS NumOfTransactions
 FROM SalesData
+GROUP BY Region
+```
+- To calculate total revenue by product, monthly sales totals for the current year, Top 5 customers by total purchase amount, percentage of total sales contributed by each region, products with no sales in the last quater,
+  ```SQL
+  SELECT Product, SUM([ Sales]) AS TotalRevenue FROM SalesData GROUP BY Product
+```
+
+```SQL
+SELECT Month(OrderDate) AS Month,
+    SUM([ Sales]) AS MonthlySalesTotal
+FROM SalesData WHERE YEAR(OrderDate) = 2024
+GROUP BY Month(OrderDate)
+ORDER BY Month
+```
+
+```SQL
+SELECT Top (5) [Customer Id],
+ SUM([ Sales]) AS TotalPurchaseAmount FROM SalesData
+GROUP BY [Customer Id]
+ORDER BY TotalPurchaseAmount DESC
+```
+
+```SQL
+SELECT Region, SUM([ Sales]) AS RegionTotalSales,
+FORMAT(ROUND((SUM([ Sales]) / CAST((SELECT SUM([ Sales]) FROM salesdata) AS DECIMAL(10,2)) * 100), 1), '0.#') 
+AS PercentageOfTotalSales
+FROM salesdata
+GROUP BY Region
+ORDER BY PercentageOfTotalSales DESC
+```
+
+```SQL
+SELECT Product FROM salesdata
 GROUP BY Product
-ORDER BY TotalSales DESC
+HAVING SUM(CASE 
+WHEN OrderDate BETWEEN '2024-06-01' AND '2024-08-31' 
+THEN 1 ELSE 0 END) = 0
 ```
 
 
