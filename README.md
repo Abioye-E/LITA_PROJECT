@@ -95,3 +95,5 @@ POWER BI
  RESULT INTERPRETATION; From the visualization above,the month of February had the highest sales recorded (2.75 million) followed by July (1.38 million)
 
  ### Recommendation
+The product "shoe" dominance indicates strong product recognition and customer preference 
+ Therefore, it is recommended that the retail store keep investing in shoe's marketing and distribution.
