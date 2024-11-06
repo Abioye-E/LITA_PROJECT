@@ -72,6 +72,9 @@ THEN 1 ELSE 0 END) = 0
 ```
 ### Data Visualization
 POWER BI
-- I imported data from SQL sever
-- After impoerting, I transformed the data and checked for column quality, 
+- I imported data from Excel Workbook
+- After importing, I transformed the data and checked for column quality, column profile and column distribution.
+- I closed and applied then changed to Report view for Visualization
+- SALES OVERVIEW OF SalesData AND CustomerData
+  
 
