@@ -78,4 +78,4 @@ POWER BI
 - SALES OVERVIEW OF SalesData AND CustomerData
   - TOP SELLING PRODUCTS
   ![power BI visualization](https://github.com/user-attachments/assets/a147ab72-3536-4f0d-b991-4f2e96ef6ef6)
-  - RESULT INTERPRETATION; From the visualization above, the top selling product is Shoes with the total sales of 3.09 million which accounts for (29.16% of the toal revenue). Followed by shirt which has the total sales of 2.5 million (23.14% of the total revenue) 
+  - RESULT INTERPRETATION; From the visualization above, the top selling product is Shoes with the total sales of 3.09 million which accounts for (29.16% of the toal revenue). Followed by shirt which has the total sales of 2.45 million (23.14% of the total revenue) 
