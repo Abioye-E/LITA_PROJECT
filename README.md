@@ -76,11 +76,20 @@ POWER BI
 - After importing, I transformed the data and checked for column quality, column profile and column distribution.
 - I closed and applied then changed to Report view for Visualization
 - SALES OVERVIEW OF SalesData AND CustomerData
-  - TOP SELLING PRODUCTS
+  - TOP SELLING PRODUCTS IN SALESDATA
   ![power BI visualization](https://github.com/user-attachments/assets/a147ab72-3536-4f0d-b991-4f2e96ef6ef6)
   - RESULT INTERPRETATION; From the visualization above, the top selling product is Shoes with the total sales of 3.09 million which accounts for (29.16% of the total revenue). Followed by shirt which has the total sales of 2.45 million (23.14% of the total revenue)
-  - REGIONAL PERFORMANCE
+- TOP SELLING SERVICE IN CUSTOMERDATA
+   ![power BI visualization 5](https://github.com/user-attachments/assets/6eb89297-e695-4948-81ca-24e3eaccef90)
+  -  RESULT INTERPRETATION; From the visualization above, the top selling product is Basic subscriptiontype with the total sales of 75 million which accounts for (49.9% of the total revenue). Followed by premium subscriptiontype which has the total sales of 38 million (25.08% of the total revenue)
+ 
+- REGIONAL PERFORMANCE
     ![power BI visualization 3](https://github.com/user-attachments/assets/6ed6f1d4-b20e-4c41-8bea-6f25f601ef68)
     - RESULT INTERPRETATION; From the visualization above, South region has the highest sales(4.7millon) in the four regions followed by East region (2.5million) of the total revenue.
-    - 
+  -  MONTHLY SALES TREND
 
+![power BI visualization 4](https://github.com/user-attachments/assets/de347b53-cf8e-4b99-9ff5-9200a5b99926)
+
+![power BI visualization 6](https://github.com/user-attachments/assets/6045a964-62f7-45f1-a2d6-7fd7eb7dbdcd)
+
+ RESULT INTERPRETATION; From the visualization above,the month of February had the highest sales recorded (2.75 million) followed by July (1.38 million)
